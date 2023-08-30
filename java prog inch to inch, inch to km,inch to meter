@@ -1,0 +1,32 @@
+
+
+
+import java.util.Scanner;
+
+public class cm {
+    public static void main(String[] args) {
+        final double CM = 2.54;
+        final double INCH = 0.394;
+        final double METER = 0.0254;
+        final double KILOMETER = 0.0000254;
+        Scanner in = new Scanner(System.in);
+        System.out.println("enter the number");
+        double inch = in.nextDouble();
+        double cm = CM * METER;
+        double m = inch* METER;
+        double km = inch* KILOMETER;
+        System.out.println(inch + " INCH " + inch + "inches.");
+        System.out.println(inch + "inch is equal to " + m + "meters.");
+        System.out.println(inch + "inch is equla to " + km + "kilometer.");
+
+    }
+}
+// o/p
+enter the number
+5
+5.0 INCH 5.0inches.
+5.0inch is equal to 0.127meters.
+5.0inch is equla to 1.27E-4kilometer.
+
+
+
