@@ -1,2 +1,2 @@
 # java-prog
-java program to convert centimeter to inch .
+java program to convert inch to inch , inch to meter, inch to kilometer .
